@@ -5,8 +5,16 @@ export const Hero = () => {
     <div className="pl-4 md:pl-[113px] pr-[75px] w-full  flex flex-col md:flex-row bg-slate-100 ">
       <div className="pt-[50px] w-1/2 ">
         <div className="flex gap-4">
-          <img src="/icnirp-img.png" className="w-[74px] h-[74px] md:w-[112px] md:h-[112px]" alt="" />
-          <img src="/fc-img.png"  className="w-[74px] h-[74px] md:w-[112px] md:h-[112px]"alt="" />
+          <img
+            src="/icnirp-img.png"
+            className="w-[74px] h-[74px] md:w-[112px] md:h-[112px]"
+            alt=""
+          />
+          <img
+            src="/fc-img.png"
+            className="w-[74px] h-[74px] md:w-[112px] md:h-[112px]"
+            alt=""
+          />
         </div>
         <div className="w-[325px] flex pr-10 md:pr-0 md:w-full ">
           <img src="/Hero-main-img.png" alt="" />
@@ -39,11 +47,35 @@ export const Hero = () => {
           "
           />
         </div>
+        <div className="flex text-center  w-[250px] md:w-full gap-8 mt-8 items-center ">
+          <div className="flex w-1/2 flex-col gap-6">
+            <div className="flex gap-4  flex-col md:flex-row">
+              <img src="/svg1.svg" alt="" />
+              <p>30-day Money-back Guarantee</p>
+            </div>
+            <div className="flex gap-4 flex-col md:flex-row">
+              <img src="/svg2.svg" alt="" />
+              <p>Signal Catalogue Updates Included</p>
+            </div>
+          </div>
+          <div className="flex flex-col w-1/2 gap-6">
+            <div className="flex flex-col md:flex-row gap-4">
+              <img src="/svg3.svg" alt="" />
+              <p>Free Shipping within USA</p>
+            </div>
+            <div className="flex gap-4 flex-col md:flex-row">
+              <img src="/svg4.svg" alt="" />
+              <p>Customer Support via E-mail, Phone, and Chat</p>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="flex flex-col gap-4">
         {/* Right Section */}
         <div className="w-1/2 pt-[35px] flex flex-col gap-[5px]  ">
-          <h1 className="poppins-bold text-[32px] w-[325px] md:w-[340px]  md:text-4xl">Firebee Headband</h1>
+          <h1 className="poppins-bold text-[32px] w-[325px] md:w-[340px]  md:text-4xl">
+            Firebee Headband
+          </h1>
           <div className="w-[400px] md:w-full flex h-[16px] items-center gap-4">
             {[0, 1, 2, 3].map((i) => (
               <img src="/star.png" alt="" className="object-cover" />
@@ -160,8 +192,6 @@ export const Hero = () => {
                     <p className="text-2xl text-black poppins-light">$799.00</p>
                   </div>
                 </div>
-
-              
 
                 {/* Features Section */}
                 <div className=" flex flex-col gap-2">
