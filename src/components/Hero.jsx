@@ -2,7 +2,7 @@ import React from "react";
 
 export const Hero = () => {
   return (
-    <div className="pl-4 md:pl-[113px] pr-[75px] w-full  flex flex-col md:flex-row ">
+    <div className="pl-4 md:pl-[113px] pr-[75px] w-full  flex flex-col md:flex-row bg-slate-100 ">
       <div className="pt-[50px] w-1/2 ">
         <div className="flex gap-4">
           <img src="/icnirp-img.png" className="w-[74px] h-[74px] md:w-[112px] md:h-[112px]" alt="" />

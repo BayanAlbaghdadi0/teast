@@ -6,7 +6,7 @@ import { Footer } from "../components/Footer";
 export const Landing = () => {
   return (
     <>
-      <header className="h-[74px]  ">
+      <header className="h-[74px] md:overflow-x-hidden  ">
         <div
           className="w-full h-full "
           style={{ background: `url('/header-base.png') ` }}
@@ -26,7 +26,6 @@ export const Landing = () => {
       </header>
       <Nav />
       <Hero />
-
       <Footer />
     </>
   );
