@@ -35,11 +35,16 @@ export const Footer = () => {
         </div>
         <hr className='border-slate-500 ' />
 
-        <div className="bg-image bg-cover bg-center bg-black w-full h-[340px] overflow-x-hidden md:h-[220px] relative" >
-          <img src='footer-bg.png' className='contrast-150 absolute md:top-8 top-56 md:scale-[1] scale-[4]' />
-          <div className='w-full h-full'>
-            <img src="logo-footer.png" alt="logo" />
+        <div className=" bg-black w-full h-[340px] overflow-hidden md:h-[220px] relative">
+          <div className='w-full h-full relative z-20 flex md:flex-row text-slate-400 justify-between md:px-[45px] px-[25px] pt-[23px] flex-col'>
+            <div className='flex md:flex-[3] h-full flex-col items-start gap-[20px]'>
+              <img src="logo-footer.png" alt="logo" className='' />
+              <p>Copyright 2020 Firebee Technologies, Inc. All rights reserved.</p>
+              <p className='text-[14px]'>The statements on this page have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure, or prevent any disease.</p>
+            </div>
+            <p className='flex-[1] mb-[35px]'>Privacy Policy Terms of Service</p>
           </div>
+          <img src='footer-bg.png' className='contrast-150 absolute md:top-8 top-56 md:scale-[1] scale-[4]' />
         </div>
       </div>
     </>
