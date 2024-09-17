@@ -11,7 +11,7 @@ export const Footer = () => {
       <div className='bg-black'>
         <div className='flex w-full md:flex-row flex-col  justify-start items-start bg-black' >
 
-          <div className=' bg-black md:h-[195px] flex md:flex-row md:mr-40 md:gap-[155px]'>
+          <div className=' bg-black md:h-[195px] flex md:flex-row md:mr-40 md:gap-[155px] gap-[65px]'>
             <div className='md:pl-[80px] pl-[25px] pt-[30px] pb-[50px] '>
               <p className=' text-white font-light text-[24px] mb-[6px]'>About</p>
               <p className=' text-white font-light '>Home</p>
