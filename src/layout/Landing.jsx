@@ -31,7 +31,7 @@ export const Landing = () => {
         <Nav />
         <Hero />
         <Gurantee />
-        <FirebeeSignals/>
+        <FirebeeSignals />
         <Footer />
       </div>
     </>
