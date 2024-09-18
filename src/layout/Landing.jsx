@@ -2,6 +2,7 @@ import React from "react";
 import { Nav } from "../components/Nav";
 import { Hero } from "../components/Hero";
 import { Footer } from "../components/Footer";
+import Product from "../components/Product";
 
 export const Landing = () => {
   return (
@@ -26,6 +27,7 @@ export const Landing = () => {
       </header>
       <Nav />
       <Hero />
+      <Product />
       <Footer />
     </>
   );
