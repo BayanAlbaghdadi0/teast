@@ -2,9 +2,9 @@ import React from "react";
 
 export const Hero = () => {
   return (
-    <div className="pl-4 md:pl-[113px] pr-[75px] w-full  flex flex-col md:flex-row bg-slate-100 ">
-      <div className="pt-[50px] w-1/2 ">
-        <div className="flex gap-4">
+    <div className="pl-4 md:pl-[113px]  md:pr-[75px] w-full  flex flex-col md:flex-row bg-slate-100 ">
+      <div className="pt-[50px]  mx-12 md:mx-0  w-1/2 ">
+        <div className="flex gap-4 ">
           <img
             src="/icnirp-img.png"
             className="w-[74px] h-[74px] md:w-[112px] md:h-[112px]"
@@ -16,34 +16,34 @@ export const Hero = () => {
             alt=""
           />
         </div>
-        <div className="w-[325px] flex pr-10 md:pr-0 md:w-full ">
+        <div className="w-[259px]   flex pr-10 md:pr-0 md:w-full ">
           <img src="/Hero-main-img.png" alt="" />
         </div>
         <div className="flex w-full gap-1  md:gap-4">
           <img
             src="/Hero-main-img.png"
             alt=""
-            className="w-[54px] h-[54px] md:w-[100px] md:h-[100px] object-cover "
+            className="w-[45px] h-[45px] md:w-[100px] md:h-[100px] object-cover "
           />
           <img
             src="/hero-bar-2.png"
             alt=""
-            className="w-[54px] h-[54px] md:w-[100px] md:h-[100px] object-cover "
+            className="w-[45px] h-[45px] md:w-[100px] md:h-[100px] object-cover "
           />
           <img
             src="/hero-bar-3.png"
             alt=""
-            className="w-[54px] h-[54px] md:w-[100px] md:h-[100px] object-cover "
+            className="w-[45px] h-[45px] md:w-[100px] md:h-[100px] object-cover "
           />
           <img
             src="/hero-bar-4.png"
             alt=""
-            className="w-[54px] h-[54px] md:w-[100px] md:h-[100px] object-cover "
+            className="w-[45px] h-[45px] md:w-[100px] md:h-[100px] object-cover "
           />
           <img
             src="/hero-bar-5.png"
             alt=""
-            className="w-[54px] h-[54px] md:w-[100px] md:h-[100px] object-cover  bg 
+            className="w-[45px] h-[45px] md:w-[100px] md:h-[100px] object-cover  bg 
           "
           />
         </div>
@@ -92,7 +92,7 @@ export const Hero = () => {
             Order today and receive your Firebee by June 15th, 2021
           </p>
           <div
-            className="w-[325px] h-[528px] md:w-[634px]  md:h-[337px] p-[2px] mt-[15px]" //
+            className="w-[300px] h-[600px] md:w-[634px]  md:h-[337px] p-[2px] mt-[15px]" //
             style={{
               background: "linear-gradient(180deg, #2D5ECE 0%, #9F4EA1 100%)",
               borderRadius: "10px",
@@ -153,7 +153,7 @@ export const Hero = () => {
                 </div>
 
                 {/* Description */}
-                <p className="text-gray-500 w-[300px] md:w-[584px] poppins-light text-[16px] pb-8">
+                <p className="text-gray-500 w-[268px] md:w-[584px] poppins-light text-[16px] pb-8">
                   The starter kit is the most affordable way to get started with
                   Firebee. Pay $299 for the Firebee headband and access to the
                   entire Firebee Signal Catalogue for only $19 a month.
@@ -169,7 +169,7 @@ export const Hero = () => {
         </div>
         <div className="w-1/2 pt-[35px] flex flex-col gap-[5px]  ">
           <div
-            className="w-[325px] h-[528px] md:w-[634px]  md:h-[337px] p-[2px] mt-[15px]" //
+            className="w-[300px] h-[600px] md:w-[634px]  md:h-[337px] p-[2px] mt-[15px]" //
             style={{
               background: "linear-gradient(180deg, #2D5ECE 0%, #9F4EA1 100%)",
               borderRadius: "10px",
@@ -210,7 +210,7 @@ export const Hero = () => {
                 </div>
 
                 {/* Description */}
-                <p className="text-gray-500 w-[280px] md:w-[584px] poppins-light text-[16px] pb-8">
+                <p className="text-gray-500 w-[268px] md:w-[584px] poppins-light text-[16px] pb-8">
                   The Founders kit allows you to get the Firebee headband and
                   lifetime access to the entire Firebee Signal Catalogue for a
                   one-time payment. The Founders is kit can be paid through
@@ -225,7 +225,7 @@ export const Hero = () => {
           Add to Cart
           <img src="/arrow.png" className="" alt="" />
         </button>
-        <img src="/collaction.png" alt="" />
+        <img src="/collaction.png" className="my-8 " alt="" />
       </div>
     </div>
   );

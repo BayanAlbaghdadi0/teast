@@ -2,31 +2,38 @@ import React from "react";
 import { Nav } from "../components/Nav";
 import { Hero } from "../components/Hero";
 import { Footer } from "../components/Footer";
+import { Gurantee } from "../components/Gurantee";
+import { FirebeeSignals } from "../components/FirebeeSignals";
 
 export const Landing = () => {
   return (
     <>
-      <header className="h-[74px] md:overflow-x-hidden  ">
-        <div
-          className="w-full h-full "
-          style={{ background: `url('/header-base.png') ` }}
-        >
+      <div className="w-full">
+        <header className="h-[74px] md:overflow-x-hidden w-full  ">
           <div
-            className="flex items-center justify-center h-full w-full"
-            style={{
-              background: `url('/image 17.png') `,
-              boxShadow: `0px 2px 4px 0px #134358`,
-            }}
+            className="w-full h-full "
+            style={{ background: `url('/header-base.png') ` }}
           >
-            <h2 className="text-center  text-white font-extrabold text-2xl tracking-widest   ">
-              Black Friday Sale<br className="block md:hidden"/> Save $100
-            </h2>
+            <div
+              className="flex items-center justify-center h-full w-full"
+              style={{
+                background: `url('/image 17.png') `,
+                boxShadow: `0px 2px 4px 0px #134358`,
+              }}
+            >
+              <h2 className="text-center  text-white font-extrabold text-2xl tracking-widest   ">
+                Black Friday Sale
+                <br className="block md:hidden" /> Save $100
+              </h2>
+            </div>
           </div>
-        </div>
-      </header>
-      <Nav />
-      <Hero />
-      <Footer />
+        </header>
+        <Nav />
+        <Hero />
+        <Gurantee />
+        <FirebeeSignals/>
+        <Footer />
+      </div>
     </>
   );
 };

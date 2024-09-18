@@ -5,7 +5,7 @@ export const Nav = () => {
   const [open, setOpen] = useState(false);
   return (
     <nav className="bg-white shadow-md w-full">
-      <div className="container mx-2 md:mx-[30px] flex items-center justify-between  p-4">
+      <div className="container px-4 md:mx-[30px] flex items-center justify-between  p-4">
         {/* Left Section: Logo */}
         <div className="flex items-center justify-between gap-[43px]">
           <img
