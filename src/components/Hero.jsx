@@ -1,43 +1,58 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 export const Hero = () => {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const images = [
+    "/Hero-main-img.png",
+    "/c1.jpg",
+    "/c2.jpg",
+    "/c3.jpg",
+    "/c4.jpg",
+  ];
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 3000); //
+
+    return () => clearInterval(intervalId); //
+  }, [images.length]);
   return (
     <div className="pl-4 md:pl-[113px] md:pr-[75px] w-full flex flex-col md:flex-row bg-slate-100">
       {/* Left Section */}
       <div className="pt-[50px] mx-4 md:mx-0 w-full md:w-1/2">
-        <div className="flex gap-4">
-          <img
-            src="/icnirp-img.png"
-            className="w-[74px] h-[74px] md:w-[112px] md:h-[112px]"
-            alt=""
-          />
-          <img
-            src="/fc-img.png"
-            className="w-[74px] h-[74px] md:w-[112px] md:h-[112px]"
-            alt=""
-          />
-        </div>
-        <div className="w-full md:w-[400px] flex pr-4 md:pr-0">
-          <img src="/Hero-main-img.png" alt="" className="object-cover" />
-        </div>
-        <div className="flex w-full gap-1 md:gap-4">
-          {[
-            "/Hero-main-img.png",
-            "/hero-bar-2.png",
-            "/hero-bar-3.png",
-            "/hero-bar-4.png",
-            "/hero-bar-5.png",
-          ].map((img, idx) => (
+        <div className="pt-[50px] mx-4 md:mx-0 w-full md:w-1/2">
+          <div className="flex gap-4">
             <img
-              key={idx}
-              src={img}
+              src="/icnirp-img.png"
+              className="w-[74px] h-[74px] md:w-[112px] md:h-[112px]"
               alt=""
-              className="w-[45px] h-[45px] md:w-[100px] md:h-[100px] object-cover"
             />
-          ))}
+            <img
+              src="/fc-img.png"
+              className="w-[74px] h-[74px] md:w-[112px] md:h-[112px]"
+              alt=""
+            />
+          </div>
+          <div className="w-full my-2 md:w-[400px] flex pr-4 md:pr-0">
+            <img
+              src={images[currentImageIndex]}
+              alt=""
+              className="object-cover"
+            />
+          </div>
+          <div className="flex w-full gap-1 md:gap-4">
+            {images.map((img, idx) => (
+              <img
+                key={idx}
+                src={img}
+                alt=""
+                className="w-[45px] h-[45px] md:w-[100px] md:h-[100px] object-cover"
+              />
+            ))}
+          </div>
         </div>
         <div className="flex w-full gap-8 mt-8 items-center">
-          
           <div className="flex flex-wrap gap-6 w-full justify-between">
             <div className="flex flex-col md:flex-row gap-4 items-center w-1/3 md:w-[48%]">
               <img src="/svg1.svg" alt="" />
@@ -71,7 +86,7 @@ export const Hero = () => {
       {/* Right Section */}
       <div className="flex flex-col w-full md:w-1/2 pt-[35px] gap-6">
         {/* Kit 1 */}
-        <div className="w-full h-auto md:h-[337px] bg-gradient-to-b from-[#2D5ECE] to-[#9F4EA1] p-[2px] rounded-lg">
+        <div className="w-full h-auto md:h-[350px] bg-gradient-to-b from-[#2D5ECE] to-[#9F4EA1] p-[2px] rounded-lg">
           <div className="bg-white w-full h-full rounded-lg p-6 flex flex-col gap-4">
             <div className="flex justify-between items-center">
               <h2 className="poppins-bold text-2xl bg-[#3F3631] bg-clip-text text-transparent">

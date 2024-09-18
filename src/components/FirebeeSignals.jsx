@@ -13,7 +13,7 @@ export const FirebeeSignals = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-8">
         <div className="flex items-center flex-col md:flex-row">
           <img src="/bee1.png" alt="" />
           <p className="ml-4">
