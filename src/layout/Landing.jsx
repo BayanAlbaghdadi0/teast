@@ -2,6 +2,7 @@ import React from "react";
 import { Nav } from "../components/Nav";
 import { Hero } from "../components/Hero";
 import { Footer } from "../components/Footer";
+import Product from "../components/Product";
 import { Gurantee } from "../components/Gurantee";
 import { FirebeeSignals } from "../components/FirebeeSignals";
 
@@ -32,6 +33,7 @@ export const Landing = () => {
         <Hero />
         <Gurantee />
         <FirebeeSignals />
+        <Product />
         <Footer />
       </div>
     </>

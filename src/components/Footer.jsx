@@ -36,7 +36,7 @@ export const Footer = () => {
         <hr className='border-slate-500 ' />
 
         <div className=" bg-black w-full h-[340px] overflow-hidden md:h-[220px] relative">
-          <div className='w-full h-full relative z-20 flex md:flex-row text-slate-400 justify-between md:px-[45px] px-[25px] pt-[23px] flex-col'>
+          <div className='w-full h-full relative z-20 flex md:flex-row text-slate-400 justify-between md:px-[75px] px-[25px] pt-[23px] flex-col'>
             <div className='flex md:flex-[3] h-full flex-col items-start gap-[20px]'>
               <img src="logo-footer.png" alt="logo" className='' />
               <p>Copyright 2020 Firebee Technologies, Inc. All rights reserved.</p>
