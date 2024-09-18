@@ -31,9 +31,9 @@ export const Landing = () => {
         </header>
         <Nav />
         <Hero />
-      <Product />
         <Gurantee />
-        <FirebeeSignals/>
+        <FirebeeSignals />
+        <Product />
         <Footer />
       </div>
     </>
