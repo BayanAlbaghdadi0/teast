@@ -82,7 +82,7 @@ export const Hero = () => {
           </div>
         </div>
       </div>
-
+ 
       {/* Right Section */}
       <div className="flex flex-col w-full md:w-1/2 pt-[35px] gap-6">
         {/* Kit 1 */}
