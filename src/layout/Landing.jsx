@@ -6,6 +6,7 @@ import Product from "../components/Product";
 import { Gurantee } from "../components/Gurantee";
 import { FirebeeSignals } from "../components/FirebeeSignals";
 import Features from "../components/Features";
+import { Frequently } from "../components/Frequently";
 
 export const Landing = () => {
   return (
@@ -36,6 +37,7 @@ export const Landing = () => {
         <FirebeeSignals />
         <Features />
         <Product />
+        <Frequently/>
         <Footer />
       </div>
     </>
