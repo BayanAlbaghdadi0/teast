@@ -5,6 +5,7 @@ import { Footer } from "../components/Footer";
 import Product from "../components/Product";
 import { Gurantee } from "../components/Gurantee";
 import { FirebeeSignals } from "../components/FirebeeSignals";
+import Features from "../components/Features";
 import { Frequently } from "../components/Frequently";
 
 export const Landing = () => {
@@ -34,6 +35,7 @@ export const Landing = () => {
         <Hero />
         <Gurantee />
         <FirebeeSignals />
+        <Features />
         <Product />
         <Frequently/>
         <Footer />
