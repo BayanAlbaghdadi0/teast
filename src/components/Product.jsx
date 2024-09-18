@@ -18,17 +18,17 @@ const Product = () => {
                     </div>
                 </div>
                 <hr className='border-slate-300 w-full my-[37px]' />
-                <div className='w-full flex md:flex-nowrap flex-wrap justify-between  md:text-[30px] text-[20px] text-slate-500'>
+                <div className='w-full flex md:flex-nowrap flex-wrap md:ml-0 pl-[25px] justify-between  md:text-[30px] text-[20px] text-slate-500'>
                     <div className='flex items-center  justify-start  gap-2 md:mb-0 mb-[15px] ' >
-                        <img src='Subtract.png' className='md:w-[40px] md:h-[40px] w-[30px] h-[30px]' />
+                        <img src='Subtract.png' className='md:w-[40px] md:h-[40px] w-[25px] h-[25px]' />
                         <p >1 Firebeeheadband </p>
                     </div>
                     <div className='flex items-center  justify-start  gap-2 md:mb-0 mb-[15px]'>
-                        <img src='Subtract.png' className='md:w-[40px] md:h-[40px] w-[30px] h-[30px]' />
+                        <img src='Subtract.png' className='md:w-[40px] md:h-[40px] w-[25px] h-[25px]' />
                         <p>1 Charging cable</p>
                     </div>
                     <div className='flex items-center  justify-start  gap-2 md:mb-0 mb-[15px]'>
-                        <img src='Subtract.png' className='md:w-[40px] md:h-[40px] w-[30px] h-[30px]' />
+                        <img src='Subtract.png' className='md:w-[40px] md:h-[40px] w-[25px] h-[25px]' />
                         <p>1 User manual</p>
                     </div>
                 </div>
@@ -37,4 +37,4 @@ const Product = () => {
     )
 }
 
-export default Product
+export default Product 
