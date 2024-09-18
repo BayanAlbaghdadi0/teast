@@ -5,6 +5,7 @@ import { Footer } from "../components/Footer";
 import Product from "../components/Product";
 import { Gurantee } from "../components/Gurantee";
 import { FirebeeSignals } from "../components/FirebeeSignals";
+import Features from "../components/Features";
 
 export const Landing = () => {
   return (
@@ -33,6 +34,7 @@ export const Landing = () => {
         <Hero />
         <Gurantee />
         <FirebeeSignals />
+        <Features />
         <Product />
         <Footer />
       </div>
